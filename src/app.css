@@ -1,4 +1,6 @@
 body
 {
-    background: pink;
+    height-min: 100%;
+    width: 100%;
+    background: url('./images/helloworld.png') center center no-repeat;
 }
