@@ -43,7 +43,8 @@ module.exports = {
             {
                 test: /\.(jpe?g|png|gif|svg)$/i,
                 use: [
-                    'file-loader?name=images/[hash:12].[ext]', //if you would hash name then use [name]
+                    'file-loader?name=images/[hash:12].[ext]',  //if you would like to use original
+                                                                // name of file then use [name]
                     'image-webpack-loader'
                 ]
             }
